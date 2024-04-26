@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <!-- Put position absolute inside position relative -->
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">3</div>
+        </div>
+        <img class="current-user-picture" src="channel-pictures/my-channel.jpeg">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+           <a href="https://youtube.com/playlist?list=PL9gnSGHSqcno1G3XjUbwzXHL8_EttOuKk&si=Rd1dtFh-9kZ-AH4o" target="_blank">
+             <img class="thumbnail" src="thumbnails/thumbnail-1 - Copy (2).webp">
+            <div class="video-time">7 Videos</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Object Oriented Programming (OOP) in Java Course
+              </p>
+              <p class="video-author">
+                Kunal Kushwaha
+              </p>
+              <p class="video-stats">
+               939,615 views &#183; Last updated on Jul 30, 2023
+              </p></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/3fdgNq6DSiY?si=GbkAL2WY4_5nOKUa" target="_blank">
+            <img class="thumbnail" src="thumbnails/thumbnail-1 - Copy.webp">
+            <div class="video-time">31:57</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                TCS NQT Registration Process 2024 | Complete Step by Step TCS Registration
+              </p>
+              <p class="video-author">
+                Prep Insta
+
+              </p>
+              <p class="video-stats">
+                
+            131K views &#183; 8 days ago 
+              </p></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/QmHX0whk6Rg?si=NdO_GE6uK0zYLtwb" target="_blank">
+            <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+            <div class="video-time">05:09</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-3.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Pirai Thedum Iravilae | Mayakkam Enna | Star - Dhanush,Richa Gangopadhyay
+              </p>
+              <p class="video-author">
+                
+            Gemini Audio
+              </p>
+              <p class="video-stats">
+                17M views &#183; 3 years ago
+              </p></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/IJZPC6OVW2s?si=UfWAPkWpsShz4XFi" target="_blank">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            <div class="video-time">11:03</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-4.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                THE NEIGHBOUR GIRL / PAKKATHU VEETTU PONNU / NEIGHBOUR CRUSH
+              </p>
+              <p class="video-author">
+                
+              Thana Sendha kootam channel
+              </p>
+              <p class="video-stats">
+                1,648 views &#183; Sep 5, 2020
+              </p></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/NZn6rgLtXE4?si=bQdRcOa8NEcJuEHu" target="_blank">
+            <img class="thumbnail" src="thumbnails/thumbnail-2 - Copy (2).webp">
+            <div class="video-time">02:58</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-5.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Adigaa x Amizhdhe Nee x Aye Khuda
+              </p>
+              <p class="video-author">
+                
+            Karthik Music Exp
+              </p>
+              <p class="video-stats">
+                
+            363,424 views  &#183; Dec 24, 2023
+              </p></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/IIat8oxEIbE?si=32rsgPhT96mzvaAr" target="_blank">
+            <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+            <div class="video-time">04:42</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-6.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                #Inimel Song | Ulaganayagan Kamal Haasan Lyrical | ft. Lokesh Kanagaraj & Shruti Haasan
+              </p>
+              <p class="video-author">
+                
+            Raaj Kamal Films International
+
+              </p>
+              <p class="video-stats">
+                
+            8.8M views &#183; 11 days ago
+              </p></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/zcaOimCOsmQ?si=Wbrt1I6kV48uD41v" target="_blank">
+            <img class="thumbnail" src="thumbnails/thumbnail-2 - Copy.webp">
+            <div class="video-time">26:17</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/my-channel.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                நான் தான் டா Riya Kannan🤣💥 | insta series epi - 5 | Vj Siddhu Vlogs
+              </p>
+              <p class="video-author">
+                
+            Vj Siddhu Vlogs
+
+              </p>
+              <p class="video-stats">
+               
+            3.6M views &#183; 2 months ago
+              </p></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/gh3FyLT7WVg?si=tRUwwcVISA9p31D2" target="_blank">
+            <img class="thumbnail" src="thumbnails/thumbnail-4 - Copy.webp">
+            <div class="video-time">04:42</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-8.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Kurchi Madathapetti Full Video Song | Guntur Kaaram | Mahesh Babu | Sreeleela | Trivikram | Thaman S
+              </p>
+              <p class="video-author">
+               
+            Aditya Music
+
+              </p>
+              <p class="video-stats">
+                167,549,773 views &#183; Feb 1, 2024
+              </p></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/VU23OPQ1Pmc?si=S6RzZrA9cnsIS7JE" target="_blank">
+            <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+            <div class="video-time">03:04</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-9.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Sai Abhyankkar - Katchi Sera (Music Video) | Samyuktha | Ken Royson | Think India
+              </p>
+              <p class="video-author">
+                
+            Think Music India
+
+              </p>
+              <p class="video-stats">
+                
+            74,892,161 views &#183; 2 months ago
+              </p></a>
+            </div>
+          </div>
+        </div>
+
+       
+
+       
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/Keck4iVUUdE?si=HFBqF8CbJrIx0-gv" target="_blank">
+            <img class="thumbnail" src="thumbnails/thumbnail-3 - Copy.webp">
+            <div class="video-time">02:44</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-9.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Aranmanai 4 - Official Trailer | Sundar.C | Tamannaah | Raashii Khanna | Hiphop Tamizha
+              </p>
+              <p class="video-author">
+                
+             Think Music India
+
+              </p>
+              <p class="video-stats">
+                
+            5,433,381 views &#183; 6 days ago
+              </p></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
